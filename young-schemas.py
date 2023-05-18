@@ -535,10 +535,16 @@ def test():
     
     #Imprimir la tabla de resultados
     print(tabulate(table, headers = ["Esquema", "Resultados del cuestionario", "Preguntas", "DS", "LI", "Media " , "LS"]))
-    print("\n"*5)
-    print("Recuerda que la validez de estos resultados se basan en el siguiente estudio: https://www.redalyc.org/articulo.oa?id=80537307")
-    print("Para más información sobre la Terapia de Esquemas puedes consultar: Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema therapy: A practitioner's guide. Guilford Press. https://psycnet.apa.org/record/2003-00629-000")
-    print("\n"*5)
+    
+    print("\n" * 5)
+    print("Recuerda que la validez de estos resultados se basa en el siguiente estudio:")
+    print("https://www.redalyc.org/articulo.oa?id=80537307")
+
+    print("Para más información sobre la Terapia de Esquemas, puedes consultar:")
+    print("Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema therapy: A practitioner's guide. Guilford Press.")
+    print("https://psycnet.apa.org/record/2003-00629-000")
+
+    print("\n" * 5)
 
 
 
